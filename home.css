@@ -5,6 +5,7 @@ body {
     ;
 }
 
+/* nav start  */
 .nav-parent {
     width: 100%;
     height: 80px;
@@ -134,8 +135,6 @@ body {
     border-radius: 50px;
     margin-left: 20px;
 }
-
-/* main */
 
 /* main style */
 .main {
@@ -351,7 +350,6 @@ body {
 }
 
 /* cr-details */
-
 .cr-details {
     width: 100%;
     display: flex;
@@ -740,11 +738,11 @@ body {
 }
 
 .star-rating {
-    font-size: 24px; /* Adjust size of stars */
-    color: white; /* Color of stars */
-    margin: 0px 0px 10px 0px !important; /* Space between reply message and stars */
-    display: flex; /* Aligns stars horizontally */
-    gap: 5px; /* Space between stars */
+    font-size: 24px; 
+    color: white; 
+    margin: 0px 0px 10px 0px !important; 
+    display: flex; 
+    gap: 5px; 
 }
 
 .pro-details {
@@ -1062,21 +1060,19 @@ body {
     padding: 25px;
 }
 
+/* media queries for responsive  */
 @media screen and (max-width: 950px) {
-    /* Styles for the toggle button */
     .checkbtn {
         display: block;
         color: white;
         cursor: pointer;
     }
     
-    /* Menu visibility when checkbox is checked */
     #check:checked ~ .menus {
         left: 0;
         display: block;
     }
     
-    /* Main menu styles */
     .menus {
         position: fixed;
         z-index: 999;
@@ -1091,7 +1087,6 @@ body {
         overflow-x: hidden;
     }
     
-    /* Menu items */
     .menus ul {
         margin: 0;
         padding: 0;
@@ -1108,7 +1103,6 @@ body {
         color: white;
     }
     
-    /* Links inside menu */
     .menus ul li a {
         text-decoration: none;
         color: white;
@@ -1118,12 +1112,10 @@ body {
         transition: color 0.3s;
     }
     
-    /* Hover effect for menu links */
     .menus ul li a:hover {
         color: #d69026; 
     }
     
-    /* Get quote section styles */
     .get-quote {
         display: flex;
         justify-content: end;
@@ -2102,13 +2094,11 @@ body {
         cursor: pointer;
     }
     
-    /* Menu visibility when checkbox is checked */
     #check:checked ~ .menus {
         left: 0;
         display: block;
     }
     
-    /* Main menu styles */
     .menus {
         position: fixed;
         z-index: 999;
@@ -2123,7 +2113,6 @@ body {
         overflow-x: hidden;
     }
     
-    /* Menu items */
     .menus ul {
         margin: 0;
         padding: 0;
@@ -2153,7 +2142,6 @@ body {
         color: #d69026; 
     }
     
-    /* Get quote section styles */
     .get-quote {
         display: flex;
         justify-content: end;
@@ -2182,7 +2170,6 @@ body {
         margin-right: 20px;
     }
     
-    /* main style */
     .main {
         width: 100%;
         display: flex;
@@ -3038,7 +3025,6 @@ body {
         cursor: pointer;
     }
     
-    /* Menu visibility when checkbox is checked */
     #check:checked ~ .menus {
         left: 0;
         display: block;
@@ -3055,7 +3041,6 @@ body {
         height: 60px;
     }
     
-    /* Main menu styles */
     .menus {
         position: fixed;
         z-index: 999;
@@ -3070,7 +3055,6 @@ body {
         overflow-x: hidden; 
     }
     
-    /* Menu items */
     .menus ul {
         margin: 0;
         padding: 0;
@@ -3100,8 +3084,6 @@ body {
         color: #d69026; 
     }
     
-    
-    /* Get quote section styles */
     .get-quote {
         display: flex;
         justify-content: end;
@@ -3130,7 +3112,6 @@ body {
         margin-right: 30px;
     }
     
-    /* main style */
     .main {
         width: 100%;
         display: flex;

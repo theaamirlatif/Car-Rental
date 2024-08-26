@@ -1062,6 +1062,7 @@ body {
 
 /* media queries for responsive  */
 @media screen and (max-width: 950px) {
+    /* nav start  */
     .checkbtn {
         display: block;
         color: white;

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl Carousel Auto Slide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl.carousel/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl.carousel/2.3.4/assets/owl.theme.default.min.css">
+    <style>
+        .owl-carousel .item {
+            background: #eee;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            color: #000;
+        }
+        .reviews {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .reply-box {
+            padding: 15px;
+            background-color: #131313;
+            color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .reply-content p {
+            margin: 0;
+        }
+        .star-g {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .star-rating {
+            font-size: 24px;
+            color: white;
+        }
+        .pro-details {
+            margin-top: 15px;
+        }
+        .pro-details h3 {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="owl-carousel owl-theme">
+    <div class="item reviews">
+        <div class="reply-box">
+            <div class="reply-content">
+                <div class="star-g">
+                    <p class="star-rating">★ ★ ★ ★ ★</p>
+                    <img src="./assets/images/g-icon.webp" alt="">
+                </div>
+                <p>Your reply message goes here. You can add more content or style it as needed.</p>
+            </div>
+        </div>
+        <div class="pro-details">
+            <h3 style="background-color: #123443;">R</h3>
+            <div class="details">
+                <h1>Ronny</h1>
+                <span>3 months</span>
+            </div>
+        </div>
+    </div>
+    <!-- Repeat similar block for other items -->
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl.carousel/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items: 1,            // Number of items you want to display
+            loop: true,          // Loop back to the beginning
+            margin: 10,          // Margin between items
+            nav: true,           // Show next and prev buttons
+            dots: true,          // Show dots navigation
+            autoplay: true,      // Enable auto play
+            autoplayTimeout: 3000, // Time between transitions
+            autoplayHoverPause: true // Pause on hover
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1763,11 +1763,11 @@ body {
     }
 
     .star-rating {
-        font-size: 24px; /* Adjust size of stars */
-        color: white; /* Color of stars */
-        margin: 0px 0px 10px 0px !important; /* Space between reply message and stars */
-        display: flex; /* Aligns stars horizontally */
-        gap: 5px; /* Space between stars */
+        font-size: 24px;
+        color: white; 
+        margin: 0px 0px 10px 0px !important; 
+        display: flex; 
+        gap: 5px; 
     }
 
     .pro-details {
@@ -2691,11 +2691,11 @@ body {
     }
 
     .star-rating {
-        font-size: 24px; /* Adjust size of stars */
-        color: white; /* Color of stars */
-        margin: 0px 0px 10px 0px !important; /* Space between reply message and stars */
-        display: flex; /* Aligns stars horizontally */
-        gap: 5px; /* Space between stars */
+        font-size: 24px;
+        color: white; 
+        margin: 0px 0px 10px 0px !important; 
+        display: flex; 
+        gap: 5px;
     }
 
     .pro-details {
@@ -3636,11 +3636,11 @@ body {
     }
 
     .star-rating {
-        font-size: 24px; /* Adjust size of stars */
-        color: white; /* Color of stars */
-        margin: 0px 0px 10px 0px !important; /* Space between reply message and stars */
-        display: flex; /* Aligns stars horizontally */
-        gap: 5px; /* Space between stars */
+        font-size: 24px; 
+        color: white; 
+        margin: 0px 0px 10px 0px !important;
+        display: flex; 
+        gap: 5px; 
     }
 
     .pro-details {
